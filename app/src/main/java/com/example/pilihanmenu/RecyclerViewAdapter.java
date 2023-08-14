@@ -35,7 +35,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         holder.btnDetailPesan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Aksi saat tombol Pesan ditekan
                 int adapterPosition = holder.getBindingAdapterPosition();
                 if (adapterPosition != RecyclerView.NO_POSITION) {
                     Item selectedItem = listItem.get(adapterPosition);
